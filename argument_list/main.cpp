@@ -44,7 +44,7 @@ int main(int argc, char **argv)
     cout << sum_use_count(6, -6, -5, -4, -3, -2, -1) << endl; // -21 
     cout << sum_use_count(3, 10, 20, 30) << endl;             // 60
     
-    
+    // wrong
     cout << sum_use_count(3, 10., 20, 30) << endl;
     return 0;
 }

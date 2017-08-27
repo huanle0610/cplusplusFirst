@@ -8,7 +8,8 @@
   <Project Name="rvalue" Path="rvalue/rvalue.project" Active="No"/>
   <Project Name="ranged_for" Path="ranged_for/ranged_for.project" Active="No"/>
   <Project Name="Task" Path="Task/Task.project" Active="No"/>
-  <Project Name="argument_list" Path="argument_list/argument_list.project" Active="Yes"/>
+  <Project Name="argument_list" Path="argument_list/argument_list.project" Active="No"/>
+  <Project Name="deallocate" Path="deallocate/deallocate.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="ranged_for" ConfigName="Debug"/>
       <Project Name="Task" ConfigName="Debug"/>
       <Project Name="argument_list" ConfigName="Debug"/>
+      <Project Name="deallocate" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="ranged_for" ConfigName="Release"/>
       <Project Name="Task" ConfigName="Release"/>
       <Project Name="argument_list" ConfigName="Release"/>
+      <Project Name="deallocate" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
