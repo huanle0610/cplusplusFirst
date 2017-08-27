@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="clite" Database="" Version="10.0.0">
+  <Project Name="CppTypes" Path="CppTypes/CppTypes.project" Active="No"/>
+  <Project Name="Hexdump" Path="Hexdump/Hexdump.project" Active="No"/>
+  <Project Name="MemoryArrayPointer" Path="MemoryArrayPointer/MemoryArrayPointer.project" Active="No"/>
+  <Project Name="String" Path="String/String.project" Active="No"/>
+  <Project Name="pointer" Path="pointer/pointer.project" Active="No"/>
+  <Project Name="rvalue" Path="rvalue/rvalue.project" Active="No"/>
+  <Project Name="ranged_for" Path="ranged_for/ranged_for.project" Active="No"/>
+  <Project Name="Task" Path="Task/Task.project" Active="No"/>
+  <Project Name="argument_list" Path="argument_list/argument_list.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="CppTypes" ConfigName="Debug"/>
+      <Project Name="Hexdump" ConfigName="Debug"/>
+      <Project Name="MemoryArrayPointer" ConfigName="Debug"/>
+      <Project Name="String" ConfigName="Debug"/>
+      <Project Name="pointer" ConfigName="Debug"/>
+      <Project Name="rvalue" ConfigName="Debug"/>
+      <Project Name="ranged_for" ConfigName="Debug"/>
+      <Project Name="Task" ConfigName="Debug"/>
+      <Project Name="argument_list" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="CppTypes" ConfigName="Release"/>
+      <Project Name="Hexdump" ConfigName="Release"/>
+      <Project Name="MemoryArrayPointer" ConfigName="Release"/>
+      <Project Name="String" ConfigName="Release"/>
+      <Project Name="pointer" ConfigName="Release"/>
+      <Project Name="rvalue" ConfigName="Release"/>
+      <Project Name="ranged_for" ConfigName="Release"/>
+      <Project Name="Task" ConfigName="Release"/>
+      <Project Name="argument_list" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
